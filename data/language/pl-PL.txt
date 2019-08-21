@@ -1863,6 +1863,7 @@ STR_2521    :Wyświetl listę pracowników
 STR_2522    :Wyświetl ostatnie wiadomości
 STR_2523    :Pokaż mapę
 STR_2524    :Zrzut ekranu
+### The following need to be reordered to match SDL_keycode layout.														   
 STR_2525    :???
 STR_2526    :???
 STR_2527    :???
@@ -2085,6 +2086,7 @@ STR_2745    :\
 STR_2746    :]
 STR_2747    :”
 STR_2749    :Mój nowy scenariusz
+# New strings used in the cheats window previously these were ???
 STR_2750    :Przenieś wszystkie do góry
 STR_2751    :Przenieś wszystkie na dół
 STR_2752    :Czysta trawa
@@ -2109,6 +2111,7 @@ STR_2777    :{MOVE_X}{SMALLFONT}{STRING}
 STR_2778    :»{MOVE_X}{SMALLFONT}{STRING}
 STR_2779    :Podgląd #{COMMA16}
 STR_2780    :Dodatkowe okno podglądu
+# End of new strings					
 STR_2781    :{STRINGID}:{MOVE_X}{195}{STRINGID}
 STR_2782    :SHIFT + 
 STR_2783    :CTRL + 
@@ -2335,18 +2338,6 @@ STR_3074    :{RED}UWAGA: Atrakcyjność twojego parku wciąż jest niższa od 70
 STR_3075    :{RED}UWAGA: Atrakcyjność twojego parku wciąż jest niższa od 700!{NEWLINE}Pozostały ci już tylko 2 tygodnie na jej zwiększenie albo park zostanie zamknięty
 STR_3076    :{RED}OSTATNIE OSTRZEŻENIE: Atrakcyjność twojego parku wciąż jest niższa od 700!{NEWLINE}Już za 7 dni twój park zostanie zamknięty, jeśli nie rozwiążesz tego problemu
 STR_3077    :{RED}INFORMACJA: Twój park został zamknięty!
-STR_3078    :Zwykłe wejście
-STR_3079    :Drewniane wejście
-STR_3080    :Wejście w postaci płóciennego namiotu
-STR_3081    :Brama zamkowa (szara)
-STR_3082    :Brama zamkowa (brązowa)
-STR_3083    :Wejście do dżungli
-STR_3084    :Wejście do chaty drwala
-STR_3085    :Wejście klasyczne/rzymskie
-STR_3086    :Wejście abstrakcyjne
-STR_3087    :Wejście śnieżne/lodowe
-STR_3088    :Wejście w stylu japońskim
-STR_3089    :Wejście w stylu kosmicznym
 STR_3090    :{SMALLFONT}{BLACK}Wybierz styl wejścia i stacji
 STR_3091    :Nie można usunąć tego segmentu!
 STR_3092    :Nie można przesuwać ani modyfikować stacji dla tej atrakcji!
@@ -3236,6 +3227,7 @@ STR_5762    :Juan chiński (CN¥)
 STR_5763    :Wszystkie pliki
 STR_5764    :Nieprawidłowy typ atrakcji
 STR_5765    :Nie można edytować atrakcji o nieprawidłowym typie
+STR_5766    :<available string id>								  
 STR_5767    :Przychód
 STR_5768    :Wszystkich klientów
 STR_5769    :Całkowity zysk
@@ -3284,6 +3276,7 @@ STR_5811    :{SMALLFONT}{BLACK}Jeśli zaznaczone, możesz mieć do{NEWLINE}255 w
 STR_5812    :Pokaż okienko gry sieciowej
 STR_5813    :“{STRING}”
 STR_5814    :{WINDOW_COLOUR_1}“{STRING}”
+#tooltips		 
 STR_5815    :{SMALLFONT}{BLACK}Pokaż licznik FPS w grze
 STR_5816    :{SMALLFONT}{BLACK}Ustawia stosunek skalowania grafiki.{NEWLINE}Przydatne szczególnie przy grze{NEWLINE}w wysokiej rozdzielczości
 STR_5817    :{SMALLFONT}{BLACK}[Wymaga sterownika sprzętowego]{NEWLINE}Ustaw tryb skalowania UI
@@ -3728,7 +3721,75 @@ STR_6258    :Clear (transparent)
 STR_6259    :Disabled
 STR_6260    :Show blocked tiles
 STR_6261    :Show wide paths
-
+STR_6262    :Master volume
+STR_6263    :{SMALLFONT}{BLACK}Toggle all sound on/off
+STR_6264    :Always use system file browser
+STR_6265    :{SMALLFONT}{BLACK}When enabled, your operating system's file browser will be used instead of OpenRCT2's.
+STR_6266    :Open custom content folder
+STR_6267    :Open tile inspector
+STR_6268    :Advance to next tick
+STR_6269    :Invalid climate ID
+STR_6270    :Terrain Surfaces
+STR_6271    :Terrain Edges
+STR_6272    :Stations
+STR_6273    :Music
+STR_6274    :Can't set colour scheme...
+STR_6275    :{WINDOW_COLOUR_2}Station style:
+STR_6276    :{RED}{STRINGID} has guests getting stuck, possibly due to invalid ride type or operating mode.
+STR_6277    :{WINDOW_COLOUR_2}Station index: {BLACK}{STRINGID}
+STR_6278    :Autosave amount
+STR_6279    :{SMALLFONT}{BLACK}Number of autosaves that should be kept
+STR_6280    :{SMALLFONT}{BLACK}Chat
+STR_6281    :{SMALLFONT}{BLACK}Show a separate button for the Chat window in the toolbar
+STR_6282    :Chat
+STR_6283    :Chat not available at this time. Are you connected to a server?
+STR_6284    :Network
+STR_6285    :Network Information
+STR_6286    :Receive
+STR_6287    :Send
+STR_6288    :Total received
+STR_6289    :Total sent
+STR_6290    :Base protocol
+STR_6291    :Commands
+STR_6292    :Map
+STR_6293    :B
+STR_6294    :KiB
+STR_6295    :MiB
+STR_6296    :GiB
+STR_6297    :TiB
+STR_6298    :{STRING}/sec
+STR_6299    :Download all
+STR_6300    :{SMALLFONT}{BLACK}Download all missing objects if available online.
+STR_6301    :{SMALLFONT}{BLACK}Copy the selected object name to the clipboard.
+STR_6302    :{SMALLFONT}{BLACK}Copy the entire list of missing objects to the clipboard.
+STR_6303    :Downloading object ({COMMA16} / {COMMA16}): [{STRING}]
+STR_6304    :Open scenery picker
+STR_6305    :Multithreading
+STR_6306    :{SMALLFONT}{BLACK}Experimental option to use multiple threads to render, may cause instability.
+STR_6307    :Colour scheme: {BLACK}{STRINGID}
+STR_6308    :“{STRINGID}{OUTLINE}{TOPAZ}”{NEWLINE}{STRINGID}
+STR_6309    :Reconnect
+STR_6310    :{WINDOW_COLOUR_2}Position: {BLACK}{INT32} {INT32} {INT32}
+STR_6311    :{WINDOW_COLOUR_2}Next: {BLACK}{INT32} {INT32} {INT32}
+STR_6312    :(surface)
+STR_6313    :(slope {INT32})
+STR_6314    :{WINDOW_COLOUR_2}Dest: {BLACK}{INT32}, {INT32} tolerance {INT32}
+STR_6315    :{WINDOW_COLOUR_2}Pathfind Goal: {BLACK}{INT32}, {INT32}, {INT32} dir {INT32}
+STR_6316    :{WINDOW_COLOUR_2}Pathfind history:
+STR_6317    :{BLACK}{INT32}, {INT32}, {INT32} dir {INT32}
+STR_6318    :Network desync detected.{NEWLINE}Log file: {STRING}
+STR_6319    :{WINDOW_COLOUR_2}Block Brake Closed
+STR_6320    :{WINDOW_COLOUR_2}Indestructible
+STR_6321    :{WINDOW_COLOUR_2}Addition is broken
+STR_6322    :{WINDOW_COLOUR_2}Sprite Id: {BLACK}{INT32}
+STR_6323    :Simulating
+STR_6324    :Simulate
+STR_6325    :{SMALLFONT}{BLACK}Simulate ride/attraction
+STR_6326    :Can't simulate {POP16}{POP16}{POP16}{STRINGID}...
+STR_6327    :Transparent background for giant screenshots
+STR_6328    :{SMALLFONT}{BLACK}With this option enabled, giant screenshots will have a transparent background instead of the default black colour.
+STR_6329    :{STRING}{STRINGID}
+STR_6330    :Downloading [{STRING}] from {STRING} ({COMMA16} / {COMMA16})
 #############
 # Scenarios #
 ################
@@ -3844,6 +3905,7 @@ STR_SCNR    :Mega Park
 STR_PARK    :Mega Park
 STR_DTLS    :Po prostu zabawa!
 
+## Added Attractions					
 <Whispering Cliffs>
 
 STR_SCNR    :Whispering Cliffs
